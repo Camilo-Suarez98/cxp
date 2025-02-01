@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="w-full bg-[#474747] shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="mx-auto px-6 py-4 flex justify-evenly items-center">
         <Link href="/" className="text-xl font-bold text-gray-800 flex">
           <Image
             src="/logo.png"
@@ -19,17 +19,19 @@ const Header = () => {
           />
         </Link>
 
-        <nav className="hidden md:flex gap-6">
-          <Link href="/" className="hover:text-[#EABC4D]">Inicio</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]">CXP Academia</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]">Opera</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]">CXP Blog</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]">Precios</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]">Hype</Link>
+        <nav className="hidden lg:flex gap-6 items-center">
+          <Link href="/" className="text-2xl hover:text-[#EABC4D]">Inicio</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]">CXP Academia</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]">Opera</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]">CXP Blog</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]">Precios</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]">Hype</Link>
+          <Link href="/#" className="bg-[#EABC4D] text-white px-4 py-2 font-bold rounded-lg">Registrate</Link>
+          <Link href="/#" className="bg-white text-black px-4 py-2 font-bold rounded-lg">Inicia sesión</Link>
         </nav>
 
         <button
-          className="md:hidden p-2 focus:outline-none"
+          className="lg:hidden p-2 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -51,13 +53,15 @@ const Header = () => {
       <div
         className={`absolute top-16 left-0 w-full bg-[#474747] shadow-md transition-transform duration-300 ease-in-out ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
       >
-        <nav className="flex flex-col items-center gap-4 py-6">
-          <Link href="/" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Inicio</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>CXP Academia</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Opera</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>CXP Blog</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Precios</Link>
-          <Link href="/#" className="hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Hype</Link>
+        <nav className="flex flex-col items-center flex-wrap gap-4 py-6">
+          <Link href="/" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Inicio</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>CXP Academia</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Opera</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>CXP Blog</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Precios</Link>
+          <Link href="/#" className="text-2xl hover:text-[#EABC4D]" onClick={() => setIsOpen(false)}>Hype</Link>
+          <Link href="/#" className="bg-[#EABC4D] text-white px-4 py-2 font-bold rounded-lg">Registrate</Link>
+          <Link href="/#" className="bg-white text-black px-4 py-2 font-bold rounded-lg">Inicia sesión</Link>
         </nav>
       </div>
     </header>
