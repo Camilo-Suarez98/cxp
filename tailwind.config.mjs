@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: {
         'banner': "url('/banner.png')",
+        'finance': "url('/finance-img.png')"
       },
       backdropBlur: {
         'custom': '7.5px',

@@ -8,13 +8,6 @@ const featureCardsDataMobile = [
   { src: "/features-4.png" },
 ];
 
-const featureCardsDataDesk = [
-  { src: "/features-5.png" },
-  { src: "/features-6.png" },
-  { src: "/features-7.png" },
-  { src: "/features-8.png" },
-];
-
 const FeaturesSection = () => {
   return (
     <div className='my-8 mx-4 lg:mx-24'>
@@ -53,17 +46,8 @@ const FeaturesSection = () => {
         </div>
       </div>
 
-      <div className='flex flex-col items-center gap-8 lg:hidden'>
+      <div className='flex flex-col items-center gap-8 lg:flex-row'>
         {featureCardsDataMobile.map(({ src }) => (
-          <FeatureContainer
-            key={src}
-            src={src}
-          />
-        ))}
-      </div>
-
-      <div className='hidden items-center gap-8 lg:flex'>
-        {featureCardsDataDesk.map(({ src }) => (
           <FeatureContainer
             key={src}
             src={src}
