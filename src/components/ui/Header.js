@@ -9,8 +9,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-[#474747] shadow-md fixed top-0 left-0 z-50">
-      <div className="mx-auto px-6 py-4 flex justify-between items-center">
+    <header className="w-full bg-[#2C2C2C] lg:px-24">
+      <div className="mx-auto pt-6 pb-12 px-6 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-gray-800 flex">
           <Image
             src="/logo.png"
