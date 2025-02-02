@@ -11,7 +11,7 @@ const PartnerSection = () => {
           width={790}
           height={660}
           alt='Student with phone'
-          className='relative z-50 -right-32 mt-8 lg:right-0'
+          className='relative z-50 -right-32 mt-8 lg:right-0 lg:-bottom-20'
         />
         <Image
           src="/render.png"
@@ -22,7 +22,7 @@ const PartnerSection = () => {
         />
       </div>
       <div className='pt-8 px-24 pb-[74px] lg:px-12 lg:w-1/2'>
-        <h2 className='text-5xl font-bold'>
+        <h2 className='text-5xl font-black'>
           Somos el mejor aliado para {" "}
           <span className='text-[#EABC4D]'>potencializar tus finanzas</span>
         </h2>
