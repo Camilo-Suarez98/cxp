@@ -19,3 +19,42 @@ body {
   background: var(--background);
   font-family: Roboto, sans-serif;
 }
+
+.ticker-track {
+  white-space: nowrap;
+  will-change: transform;
+  width: fit-content;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes ticker2 {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-ticker {
+  animation: ticker 50s linear infinite;
+}
+
+.animate-ticker2 {
+  animation: ticker2 50s linear infinite;
+  animation-delay: -15s;
+}
+
+.ticker-track:hover>* {
+  animation-play-state: paused;
+}
