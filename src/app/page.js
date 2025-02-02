@@ -3,6 +3,7 @@ import FeatureSection from "@/components/ui/FeatureSection";
 import FeaturesSection from "@/components/ui/FeaturesSection";
 import Hero from "@/components/ui/Hero";
 import LearnSection from "@/components/ui/LearnSection";
+import PartnerSection from "@/components/ui/PartnerSection";
 import ReviewsSections from "@/components/ui/ReviewsSections";
 import TransformFinanceSection from "@/components/ui/TransformFinanceSection";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <TransformFinanceSection />
       <LearnSection />
       <ReviewsSections />
+      <PartnerSection />
     </div>
   );
 }

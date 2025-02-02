@@ -25,7 +25,7 @@ const ReviewsSections = () => {
         />
       </div>
       <div className='flex flex-col gap-8 lg:w-1/2'>
-        <h4 className='text-4xl font-bold mt-8'>Lo que dicen nuestros Usuarios</h4>
+        <h4 className='text-4xl font-bold mt-8 lg:mt-0'>Lo que dicen nuestros Usuarios</h4>
         <div className='flex flex-col gap-8'>
           {reviewsData.map(({ reviewerName, job }) => (
             <ReviewContainer
