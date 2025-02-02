@@ -2,6 +2,7 @@ import CryptoGallery from "@/components/ui/CryptoGallery";
 import FeatureSection from "@/components/ui/FeatureSection";
 import FeaturesSection from "@/components/ui/FeaturesSection";
 import Hero from "@/components/ui/Hero";
+import LearnSection from "@/components/ui/LearnSection";
 import TransformFinanceSection from "@/components/ui/TransformFinanceSection";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <FeatureSection />
       <FeaturesSection />
       <TransformFinanceSection />
+      <LearnSection />
     </div>
   );
 }
