@@ -17,7 +17,7 @@ const NavigationLinks = () => {
         <Link
           key={label}
           href="/#"
-          className="text-2xl text-white hover:text-[#EABC4D]"
+          className="text-2xl text-white hover:text-[#EABC4D] lg:text-base xl:text-xl 2xl:text-2xl"
         >
           {label}
         </Link>
