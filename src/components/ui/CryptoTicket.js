@@ -16,6 +16,7 @@ const CryptoTicket = ({
           width={40}
           height={40}
           alt='Crypto logo'
+          className='w-8 h-8'
         />
         <h2 className='text-5xl font-bold tracking-tighter'>{cryptoName}</h2>
       </div>

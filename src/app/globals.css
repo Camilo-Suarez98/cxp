@@ -36,26 +36,12 @@ body {
   }
 
   100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes ticker2 {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-ticker {
-  animation: ticker 50s linear infinite;
-}
-
-.animate-ticker2 {
-  animation: ticker2 50s linear infinite;
+  animation: ticker 100s linear infinite;
   animation-delay: -15s;
 }
 
@@ -83,4 +69,18 @@ body {
 .pulse-ring {
   transform-origin: center;
   animation: pulseRing 2s infinite ease-in-out;
+}
+
+@keyframes float-gallery {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.float-gallery {
+  animation: float-gallery 15s linear infinite;
 }

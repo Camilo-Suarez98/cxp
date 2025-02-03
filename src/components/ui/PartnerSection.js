@@ -2,6 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+const videoGallery = [
+  {
+    src: "/reproducer.png"
+  },
+  {
+    src: "/reproducer-2.png"
+  }
+]
+
 const PartnerSection = () => {
   return (
     <div className='flex flex-col my-8 mx-4 border-2 border-[#EFEBE7] rounded-2xl lg:mx-24 lg:flex-row'>
@@ -20,6 +29,26 @@ const PartnerSection = () => {
           alt='Render bitcoins logos'
           className='absolute top-0 right-0 z-10'
         />
+        <div className='bg-[#00000040] backdrop-blur-lg flex flex-col justify-end items-start gap-6 absolute top-0 left-12 w-[483px] px-6 float-gallery'>
+          {videoGallery.map(({ src }, index) => (
+            <Image
+              key={index}
+              src={src}
+              width={430}
+              height={300}
+              alt='Video'
+            />
+          ))}
+          {videoGallery.map(({ src }, index) => (
+            <Image
+              key={index}
+              src={src}
+              width={430}
+              height={300}
+              alt='Video'
+            />
+          ))}
+        </div>
       </div>
       <div className='pt-8 px-24 pb-[74px] lg:px-12 lg:w-1/2'>
         <h2 className='text-5xl font-black'>

@@ -81,9 +81,7 @@ const CryptoTicker = () => {
               percentage={percentage}
             />
           ))}
-        </div>
 
-        <div className="flex animate-ticker-2">
           {tickerContent.map(({
             imageName,
             cryptoName,
