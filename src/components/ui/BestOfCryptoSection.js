@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Hero = () => {
+const BestOfCryptoSection = () => {
   return (
     <div className="bg-banner bg-[#1b1b1b] bg-cover bg-center flex flex-col justify-center pt-20 lg:flex-row lg:p-24 lg:pb-0">
       <div className="container mx-auto lg:pt-4 lg:pb-24">
@@ -56,4 +56,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default BestOfCryptoSection;
