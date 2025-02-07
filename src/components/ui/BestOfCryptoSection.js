@@ -5,8 +5,8 @@ import Link from 'next/link';
 const BestOfCryptoSection = () => {
   return (
     <div className="bg-banner bg-[#1b1b1b] bg-cover bg-center flex flex-col justify-center pt-20 lg:flex-row lg:p-24 lg:pb-0">
-      <div className="container mx-auto lg:pt-4 lg:pb-24">
-        <div className="max-w-2xl m-auto lg:m-0">
+      <div className="container lg:pt-4 lg:pb-24">
+        <div className="max-w-2xl mx-4 lg:m-0">
           <div className='relative'>
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -50,12 +50,12 @@ const PartnerSection = () => {
           ))}
         </div>
       </div>
-      <div className='pt-8 px-24 pb-[74px] lg:px-12 lg:w-1/2'>
-        <h2 className='text-5xl font-black'>
+      <div className='pt-8 px-8 pb-14 lg:px-12 lg:w-1/2'>
+        <h2 className='text-4xl font-black lg:text-5xl'>
           Somos el mejor aliado para {" "}
           <span className='text-[#EABC4D]'>potencializar tus finanzas</span>
         </h2>
-        <p className='text-[32px] leading-9 mt-16'>
+        <p className='text-[32px] leading-9 mt-12'>
           En CXP estamos motivados en potencializar la adopción masiva
           de las criptomonedas facilitándote todas nuestras herramientas
           y conocimientos a nuestra comunidad, nuestro equipo de expertos

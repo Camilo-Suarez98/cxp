@@ -22,7 +22,7 @@ const Footer = () => {
             Suscribete
           </Link>
         </div>
-        <div className='flex items-center gap-16'>
+        <div className='flex items-center gap-8'>
           <div className='flex flex-col lg:gap-8 lg:flex-row'>
             <div className='lg:max-w-72'>
               <TitleFooter title="About us" />
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='py-[30px] px-9 text-[#474747] bg-[#E5A000]'>
-        <p className='font-light'>DESIGNED BY CXP CORP 2025 /ALL RIGTHS RESERVED</p>
+        <p className='text-xs font-light lg:text-base'>DESIGNED BY CXP CORP 2025 /ALL RIGTHS RESERVED</p>
       </div>
     </footer>
   );

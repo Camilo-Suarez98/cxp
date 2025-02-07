@@ -24,7 +24,7 @@ const FeatureContainer = ({ src }) => {
         <div className='flex justify-end'>
           <Link
             href="/#"
-            className='text-2xl font-bold border-[1px] border-[#EFEBE7] backdrop-blur-sm py-[6px] px-4 rounded-lg'
+            className='text-xl font-bold border-[1px] border-[#EFEBE7] backdrop-blur-sm py-[6px] px-4 rounded-lg lg:text-2xl'
           >
             Ver más
           </Link>

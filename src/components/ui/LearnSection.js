@@ -13,7 +13,7 @@ const LearnSection = () => {
     <div className='my-8 mx-4 lg:mx-24'>
       <div className='flex justify-between items-center gap-4 overflow-hidden lg:gap-0'>
         <div className='w-[15%] lg:w-28'>
-          <svg xmlns="http://www.w3.org/2000/svg" width="117" height="120" viewBox="0 0 117 120" fill="none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="117" height="120" viewBox="0 0 117 120" fill="none" className='w-full'>
             <path d="M90.6762 28.125L105.184 50.625L58.0327 103.125L10.8811 50.625L25.3893 28.125H90.6762Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M21.7623 50.625H96.1168" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M32.6434 37.5L41.7111 50.625L58.0328 33.75L74.3545 50.625L83.4221 37.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -37,7 +37,7 @@ const LearnSection = () => {
         </div>
 
         <div className='w-4/5 lg:w-3/5'>
-          <h2 className='text-5xl font-black lg:text-[64px]'>
+          <h2 className='text-2xl leading-normal font-black lg:text-[64px] lg:leading-16'>
             <span className='text-[#EABC4D]'> Aprende y opera</span>{" "}
             con nuestros expertos
           </h2>

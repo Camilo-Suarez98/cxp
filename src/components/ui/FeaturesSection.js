@@ -32,7 +32,7 @@ const FeaturesSection = () => {
         </div>
 
         <div className='w-4/5 lg:w-3/5'>
-          <h2 className='text-5xl font-black lg:text-[64px]'>
+          <h2 className='text-2xl font-black lg:text-[64px]'>
             Aprender a {" "}
             <span className='text-[#EABC4D]'>operar cryptos</span> {" "}
             nunca había sido tan fácil

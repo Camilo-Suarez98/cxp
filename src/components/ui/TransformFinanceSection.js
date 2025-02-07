@@ -4,7 +4,7 @@ import Link from 'next/link';
 const TransformFinanceSection = () => {
   return (
     <div className='bg-finance bg-no-repeat bg-cover my-8 mx-4 rounded-2xl border-[1px] border-[#EFEBE7] lg:mx-24'>
-      <div className="container mx-auto pt-16 px-24 pb-[30rem] lg:pt-16 lg:pl-24 lg:pb-[36rem]">
+      <div className="container mx-auto pt-6 px-8 pb-[30rem] lg:pt-16 lg:pl-24 lg:pb-[36rem]">
         <div className="max-w-2xl m-auto lg:m-0">
           <div className='relative'>
             <svg
@@ -18,7 +18,7 @@ const TransformFinanceSection = () => {
               <path d="M6 1V0H5V1H6ZM0.666667 95C0.666667 97.9455 3.05448 100.333 6 100.333C8.94552 100.333 11.3333 97.9455 11.3333 95C11.3333 92.0545 8.94552 89.6667 6 89.6667C3.05448 89.6667 0.666667 92.0545 0.666667 95ZM642 0H6V2H642V0ZM5 1V95H7V1H5Z" fill="#EABC4D" />
             </svg>
 
-            <h2 className="text-5xl font-black text-white mb-6 p-4">
+            <h2 className="text-4xl font-black text-white mb-6 p-4 lg:text-5xl">
               Transforma tus finanzas con la {" "}
               <span className='text-[#EABC4D]'>economía del futuro</span>
             </h2>
