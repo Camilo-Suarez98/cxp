@@ -37,7 +37,7 @@ const LearnSection = () => {
         </div>
 
         <div className='w-4/5 lg:w-3/5'>
-          <h2 className='text-2xl leading-normal font-black lg:text-[64px] lg:leading-16'>
+          <h2 className='text-xl font-black sm:text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl'>
             <span className='text-[#EABC4D]'> Aprende y opera</span>{" "}
             con nuestros expertos
           </h2>

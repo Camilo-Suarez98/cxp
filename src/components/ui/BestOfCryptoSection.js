@@ -5,7 +5,7 @@ import Link from 'next/link';
 const BestOfCryptoSection = () => {
   return (
     <div className="bg-banner bg-[#1b1b1b] bg-cover bg-center flex flex-col justify-center pt-20 lg:flex-row lg:p-24 lg:pb-0">
-      <div className="container lg:pt-4 lg:pb-24">
+      <div className="m-auto lg:pt-4 lg:pb-24">
         <div className="max-w-2xl mx-4 lg:m-0">
           <div className='relative'>
             <svg
@@ -19,7 +19,7 @@ const BestOfCryptoSection = () => {
               <path d="M6 1V0H5V1H6ZM0.666667 95C0.666667 97.9455 3.05448 100.333 6 100.333C8.94552 100.333 11.3333 97.9455 11.3333 95C11.3333 92.0545 8.94552 89.6667 6 89.6667C3.05448 89.6667 0.666667 92.0545 0.666667 95ZM642 0H6V2H642V0ZM5 1V95H7V1H5Z" fill="#EABC4D" />
             </svg>
 
-            <h1 className="text-5xl font-black text-white mb-6 p-4 lg:text-[70px]">
+            <h1 className="text-3xl font-black text-white mb-6 p-4 sm:text-5xl xl:text-6xl 2xl:text-7xl">
               Lo mejor de crypto en un solo lugar.
             </h1>
             <svg
