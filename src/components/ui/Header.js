@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       <div
-        className={`absolute top-24 z-50 left-0 w-full bg-[#2C2C2C] shadow-md transition-transform duration-300 ease-in-out ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
+        className={`absolute top-24 z-50 left-0 w-full bg-[#2C2C2C] shadow-md transition-transform duration-500 ease-in-out ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0 pointer-events-none"}`}
       >
         <nav className="flex flex-col items-center flex-wrap gap-4 py-6">
           <NavigationLinks />
