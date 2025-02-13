@@ -71,7 +71,7 @@ const BestOfCryptoSection = () => {
             height="120"
             viewBox="0 0 117 120"
             fill="none"
-            className="absolute left-12 top-11 bg-[#EEBA00] p-3 rounded-lg lg:-left-24"
+            className="absolute left-12 top-11 bg-[#EEBA00] p-3 rounded-lg lg:-left-6"
           >
             <path d="M90.6762 28.125L105.184 50.625L58.0327 103.125L10.8811 50.625L25.3893 28.125H90.6762Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M21.7623 50.625H96.1168" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -100,7 +100,7 @@ const BestOfCryptoSection = () => {
             height="120"
             viewBox="0 0 117 120"
             fill="none"
-            className="absolute left-8 top-[32rem] bg-[#EEBA00] p-3 rounded-lg lg:-left-40"
+            className="absolute left-8 top-[32rem] bg-[#EEBA00] p-3 rounded-lg lg:left-16"
           >
             <g clipPath="url(#clip0_1_702)">
               <path d="M96.1168 106.875H106.998L106.998 41.25H96.1168V106.875Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
